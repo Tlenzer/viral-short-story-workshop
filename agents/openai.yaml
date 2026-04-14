@@ -1,0 +1,4 @@
+interface:
+  display_name: "爆款短篇写作"
+  short_description: "中文平台型短篇的标题、首屏、正文节奏与改稿工作流。"
+  default_prompt: "Use $viral-short-story-writer to plan, draft, or revise a Chinese platform-style short story by first choosing the hook, opening device, and plot direction, then writing with a fast-paced short-form structure."
