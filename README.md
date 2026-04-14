@@ -1,10 +1,12 @@
 # Viral Short Story Workshop
 
+> A workshop-style skill for writing high-retention Chinese short fiction with strong hooks, fast conflict, and mobile-friendly pacing.
+
 中文爆款短故事与短爽文写作 skill。
 
 这个 skill 不是教你“怎么把一句话写漂亮”，而是把平台型短篇拆成一套可执行工作流：先定入口，再定首屏，再定走向，最后按统一骨架落正文。它更适合需要高钩子、快冲突、强留存、强断点的中文短篇任务。
 
-## 适用场景
+## ✨ 适用场景
 
 - 写新短篇
 - 做短篇选题
@@ -23,7 +25,7 @@
 - 强情绪中文故事
 - 平台向手机阅读文本
 
-## 核心思路
+## 🧠 核心思路
 
 这个 skill 默认把短篇拆成三层：
 
@@ -44,7 +46,7 @@
 
 先卖入口，不先卖背景；先把读者按住，再把故事写深。
 
-## 这个 skill 会做什么
+## ⚙️ 这个 skill 会做什么
 
 它会优先推动模型按下面的顺序处理短篇任务：
 
@@ -57,7 +59,7 @@
 
 默认正文结构采用统一节拍，不鼓励慢热长篇式铺垫。
 
-## 默认成文格式
+## 🧱 默认成文格式
 
 这个 skill 的一个重点是成文格式。
 
@@ -96,7 +98,7 @@
 继续加码。
 ```
 
-## 字数规则
+## 🔢 字数规则
 
 如果任务是完整正文、完整短篇、落地成文件，这个 skill 默认要求：
 
@@ -113,7 +115,7 @@
 
 如果用户明确要求更短篇幅，可以覆盖这条默认规则。
 
-## 开局类型
+## 🚪 开局类型
 
 skill 内置四种主入口：
 
@@ -124,7 +126,7 @@ skill 内置四种主入口：
 
 它们不是题材分类，而是“读者从哪一个钩子点被抓住”的分类。
 
-## 剧情走向
+## 📈 剧情走向
 
 skill 内置五种常用走向：
 
@@ -136,7 +138,7 @@ skill 内置五种常用走向：
 
 默认建议一篇短篇只保留一条主走向，不混成一锅。
 
-## 输出模式
+## 📦 输出模式
 
 这个 skill 会根据任务类型切换输出：
 
@@ -150,7 +152,7 @@ skill 内置五种常用走向：
 - `仿写`：只保留机制和情绪结构，不保留原作指纹
 - `落地成文件`：成稿后做润色、字数校验，再写入文件
 
-## 目录结构
+## 🗂️ 目录结构
 
 ```text
 Viral Short Story Workshop/
@@ -175,7 +177,7 @@ Viral Short Story Workshop/
 - `references/` 是配套资料
 - `agents/` 如果你有额外 agent 配置，可以继续扩展
 
-## 可选依赖
+## 🧩 可选依赖
 
 这个 skill 可以单独使用。
 
@@ -190,7 +192,7 @@ Viral Short Story Workshop/
 
 没有外部 skill 时，依然可以按本 skill 的规则完成交付。
 
-## 推荐使用方式
+## 🛠️ 推荐使用方式
 
 ### 1. 写新短篇
 
@@ -224,7 +226,7 @@ Viral Short Story Workshop/
 - 去 AI 味收尾
 - 纯中文正文字数校验
 
-## 一个简单示例
+## 🧪 一个简单示例
 
 示例任务：
 
@@ -252,7 +254,7 @@ Please use the "Viral Short Story Workshop" skill to write a period short story.
 - 纯中文正文字数超过 8000
 ```
 
-## 风格提醒
+## 🎯 风格提醒
 
 这个 skill 默认更偏：
 
@@ -270,7 +272,7 @@ Please use the "Viral Short Story Workshop" skill to write a period short story.
 - 讲道理多于讲现场
 - 全文写完才给第一个钩子
 
-## 适合谁
+## 👥 适合谁
 
 如果你是下面这几类人，这个 skill 会比较有用：
 
@@ -280,7 +282,7 @@ Please use the "Viral Short Story Workshop" skill to write a period short story.
 - 已经能写正文，但留存偏弱的人
 - 想把“写作感觉”变成“可执行流程”的人
 
-## License / 使用说明
+## 📄 License / 使用说明
 
 如果你把它再分发或继续改造，建议保留原 skill 名称和说明，并明确哪些内容是你自己的二次修改。
 
